@@ -7,6 +7,9 @@
         $kategori = 'semua';
     }
 
+    //menampilkan method request
+    echo "Request method: " . $_SERVER['REQUEST_METHOD'];
+
 ?>
 
 <!doctype html>
