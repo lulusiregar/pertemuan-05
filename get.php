@@ -38,7 +38,7 @@
         </form>
         
         <?php if ($kataKunci !== ''): ?>
-            <p>Mencari: <b><?= htmlspecialchars($kataKunci) ?></b></p>
+            <p>Mencari: <strong><?= htmlspecialchars($kataKunci) ?></strong></p>
         <?php endif; ?>    
     </body>
 </html>
